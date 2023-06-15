@@ -1,0 +1,187 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "e2e-ecommerce-validation;add-items-to-cart-and-verify-success-message",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add Items to Cart and verify success message",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens Ecommerce page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the User adds items to Cart",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2088000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "validate the total prices seen in checkout",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User selects the country",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User checks the checkbox",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User clicks on ProceedBtn",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the success message should be displayed",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "e2e-ecommerce-validation;fill-login-form",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Fill Login Form",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "User opens Ecommerce page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1191000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "gender"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "selvamani",
+                      "Male"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the User fill the form details",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "perform the validations",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "e2e-ecommerce-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "E2E Ecommerce Validation",
+    "tags": [],
+    "uri": "cypress/e2e/web_ui_examples/BDD/eCommerce.feature"
+  }
+]
